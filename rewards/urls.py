@@ -1,5 +1,5 @@
-from django.urls import path
-from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from django.urls import path # type: ignore
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView # type: ignore
 from .views import RegisterUserView, LogoutView, AddAppView, ListAppsView, UserProfileView, UploadTaskScreenshotView
 
 urlpatterns = [
