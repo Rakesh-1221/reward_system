@@ -76,7 +76,7 @@ export const AuthProvider = ({ children }) => {
     //  Force navigation after state update
     setTimeout(() => {
       navigate("/login");
-      window.location.reload(); // Force UI refresh to clear cached state
+      window.location.reload(); 
     }, 100);
   };
   

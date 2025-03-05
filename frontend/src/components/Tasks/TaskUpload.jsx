@@ -8,7 +8,7 @@ const TaskUpload = () => {
   const [dragging, setDragging] = useState(false);
 
   useEffect(() => {
-    // ✅ Fetch apps for dropdown
+    //  Fetch apps for dropdown
     const fetchApps = async () => {
       try {
         const token = localStorage.getItem("access");

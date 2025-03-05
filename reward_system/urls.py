@@ -25,8 +25,8 @@ def home(request):
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("api/", include("rewards.urls")),  # 🔹 Add "api/" prefix to match frontend
-    path("", home),  # 🔹 Redirect root URL to a JSON response
+    path("api/", include("rewards.urls")),  #  Add "api/" prefix to match frontend
+    path("", home),  #  Redirect root URL to a JSON response
 ]
 
 
